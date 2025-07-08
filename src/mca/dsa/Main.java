@@ -7,6 +7,10 @@ public class Main extends Person{
 		// TODO Auto-generated method stub
 		super.f1();
 	}
+	public static void main(String[] args) {
+		Main p=new Main();
+		p.f1();
+	}
 }
 	
 
