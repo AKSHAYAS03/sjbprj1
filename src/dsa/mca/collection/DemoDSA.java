@@ -39,12 +39,20 @@ public class DemoDSA{
 		System.out.println(n);
 		
 //		Array
-		ArrayList<Integer> n=new ArrayList<Integer>();
-		n.add(10);
-		n.add(3);
-		n.add(20);
-		System.out.println(n);
-		System.out.println(n.get(0));
+		ArrayList<Integer> n1=new ArrayList<Integer>();
+		n1.add(10);
+		n1.add(3);
+		n1.add(20);
+		System.out.println(n1);
+		System.out.println(n1.get(0));
+		
+		//HashSet
+		HashSet<Integer> h1=new HashSet<Integer>();
+		h1.add(100);
+		h1.add(200);
+		h1.add(90);
+		System.out.println(h1);
+	}
 		
 	}
-}
+
